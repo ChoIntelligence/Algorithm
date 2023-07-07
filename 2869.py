@@ -1,5 +1,5 @@
 import sys
-inptut = sys.stdin.readline
+input = sys.stdin.readline
 
 A, B, V = map(int, input().split())
 
