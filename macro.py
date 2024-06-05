@@ -2,6 +2,8 @@ import pyautogui
 import time
 import random
 
+# pip install pyautogui
+# C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts
 # Optional: https://docs.google.com/forms/d/e/1FAIpQLSdB0FwSjaamuLm2sV9LwzhNfWukA9QCdPj2O-vhfftmmucIAw/viewform
 
 time.sleep(5)
