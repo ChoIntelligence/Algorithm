@@ -2,7 +2,8 @@ import pyautogui
 import time
 import random
 
-# Optional: Add a short delay to ensure you switch to the target window
+# Optional: https://docs.google.com/forms/d/e/1FAIpQLSdB0FwSjaamuLm2sV9LwzhNfWukA9QCdPj2O-vhfftmmucIAw/viewform
+
 time.sleep(5)
 
 for i in range(10000):
