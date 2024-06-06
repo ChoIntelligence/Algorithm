@@ -36,7 +36,7 @@ for i in range(10000):
 
         pyautogui.press('space'); time.sleep(0.05)
 
-        rand = random.randint(0, 4)
+        rand = random.randint(0, 2)
 
         for _ in range(rand):
             pyautogui.press('down'); time.sleep(0.05)
@@ -45,8 +45,10 @@ for i in range(10000):
 
         pyautogui.press('space'); time.sleep(0.05)
 
-        for _ in range(4 - rand):
-            pyautogui.press('down'); time.sleep(0.05)
+        rand = random.randint(0, 3)
+
+        for _ in range(rand):
+            pyautogui.press('up'); time.sleep(0.05)
 
     pyautogui.press('tab'); time.sleep(0.05)
 
